@@ -1,0 +1,90 @@
+name: my
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  hexcolor: ^3.0.1
+  flutter: 
+    sdk: flutter
+  flutter_swiper_null_safety: ^1.0.2
+  dio: 4.0.6
+  fluttertoast: ^8.1.1
+  cached_network_image: ^3.2.2
+  flutter_cache_manager: ^3.3.0
+  material_floating_search_bar: ^0.3.7
+  image_picker: ^0.8.6
+  flutter_staggered_grid_view: ^0.4.1
+  material_tag_editor: ^0.1.2
+  flutter_pickers: ^2.1.8
+  scoped_model: ^2.0.0
+  #card_swiper: ^2.0.4
+  shared_preferences: ^2.0.15
+  json_annotation: ^4.7.0
+  photo_view: ^0.14.0
+  city_pickers: ^1.1.3
+  pull_to_refresh: ^2.0.0
+  motion_toast: ^2.5.4
+  flutter_easyloading: ^3.0.5
+  extended_image: ^6.3.2
+  flutter_screenutil: ^5.6.0
+  easy_refresh: ^3.0.5
+  web_socket_channel: ^2.2.0
+  socket_io_client: ^2.0.0
+
+  
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+  build_runner: ^2.3.2
+  json_serializable: ^6.5.4
+flutter: 
+  uses-material-design: true
+
+  fonts:
+    - family: myIcon #指定一个字体名,根据自己的需求
+      fonts:
+        - asset: fonts/iconfont.ttf
+
+  assets:
+    - images/browse.png
+    - images/2.0x/browse.png
+    - images/3.0x/browse.png
+    - images/myfollow.png
+    - images/2.0x/myfollow.png
+    - images/3.0x/myfollow.png
+    - images/order.png
+    - images/2.0x/order.png
+    - images/3.0x/order.png
+    - images/open.jpg
+    - images/2.0x/open.jpg
+    - images/3.0x/open.jpg
+    - images/notice.png
+    - images/2.0x/notice.png
+    - images/3.0x/notice.png
+    - images/fans.png
+    - images/2.0x/fans.png
+    - images/3.0x/fans.png
+    - images/love.png
+    - images/2.0x/love.png
+    - images/3.0x/love.png
+    - images/discuss.png
+    - images/2.0x/discuss.png
+    - images/3.0x/discuss.png
+    - images/question.png
+    - images/2.0x/question.png
+    - images/3.0x/question.png
+    - images/add.png
+    - images/2.0x/add.png
+    - images/3.0x/add.png
+    - images/get.png
+    - images/2.0x/get.png
+    - images/3.0x/get.png
+    - images/submit.png
+
